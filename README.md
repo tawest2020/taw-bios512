@@ -23,7 +23,7 @@ cat <file/text> | displays text from entry or a file
   
   
   
-R codes  
+R codes (to be moved to a new README.md later!  
   
 group_by(var) | tally() | arrange(n/var)
   
