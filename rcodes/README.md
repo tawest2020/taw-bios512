@@ -23,7 +23,9 @@ cat "quote" | Presents a series of words without trying to run as code.
 
 ### library(tidyverse) commands
 
-read_csv | Reads in the dataset you want to use.
+getwd() | Recognizes all files within the working directory.
+
+'df' <- read_csv | Reads in the dataset you want to use.
 
 head('df','value') | Prints out the number of rows from the dataset you want to see. For entire set, just use 'head'.
 
@@ -103,7 +105,14 @@ chaining joins | performing multiple joins sequentially to combine more than two
 
 ## Lecture 6
 
+names('df') | Displays all names in the dataset
+  sort(decreasing = T) %>% names() | Sort the counts of shapes in descending order and get the names.
+
 sprintf("text") | Formats variables based on type and assigns them a scripted quote  
-  
-%s | string, %d | integer, %.2f | 2 decimal places, \n | new line, \t | tab  
-  
+  %s | string, %d | integer, %.2f | 2 decimal places, \n | new line, \t | tab |
+
+as.Date('var', format ='var format') = Change a variable into a date format (YYYY/MM/DD)
+
+gsub('Old obs','New obs','df$var') = Substitutes one value for another inside of a dataset
+
+setdiff('x','y') | Reads in obs for x but not for y
