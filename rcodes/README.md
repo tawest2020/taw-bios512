@@ -1,7 +1,7 @@
 # R Codebook
 Below are codes we have used in class or homework that will be useful to keep in mind.  
 
-## Lecture 2
+## Lecture 2 - tidyverse, dplyr
 
 ?<'function-name'> | Will load the help for any built in function or any library function which has been properly documented. 
 
@@ -43,12 +43,6 @@ summarize(name=expr,...) | operate per group and produce a table of summaries
 
 'column_names' <- 'var' | Allows you to select a column to control based on its name  
 
-## Lecture 4
-
-readr | loads a file into a data frame
-
-### library(dplyr)
-
 tibble | a more efficient data frame class (like table)
 
 select(c1,c2,...) | returns a new data frame with only the selected columns
@@ -58,6 +52,10 @@ rename(new_name=old_name, ...) | return a new data frame with the renamings
 mutate(name=expr,...) | adds or modifies columns
 
 filter(boolean_expr) | returns a dataframe with only matching rows
+
+## Lecture 4 - ggplot
+
+readr | loads a file into a data frame
 
 ### library(ggplot2)
 
@@ -85,7 +83,7 @@ alpha | the transparency of a color
 
 position | for histograms and bar plots how to position boxes for the same x aesthetic. "dodge" is the most clear.  
 
-## Lecture 5
+## Lecture 5 - pivots and joins
 
 'new_df' <- pivot_longer | Fixed table so that names are moved to their own column and observations are what is put in the column field.
 
