@@ -1,7 +1,0 @@
-name: mybinder-r-env
-channels:
-  - conda-forge
-dependencies:
-  - r-base
-  - r-irkernel
-  - r-tidyverse  # Add any other R packages you need
