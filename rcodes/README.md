@@ -75,11 +75,15 @@ geom_rect | general rectangles
 
 geom_bar | bar graph can perform all sorts of aggregations
 
-aes() | how variables in your dataset should be mapped to visual properties of the plot  
-  color | the color of a point or shape or the color of the boundary of a polygon or rectangle  
-  fill | the color of the interior of a polygon or rectangle  
-  alpha | the transparency of a color  
-  position | for histograms and bar plots how to position boxes for the same x aesthetic. "dodge" is the most clear.  
+aes() | how variables in your dataset should be mapped to visual properties of the plot 
+
+color | the color of a point or shape or the color of the boundary of a polygon or rectangle 
+
+fill | the color of the interior of a polygon or rectangle 
+
+alpha | the transparency of a color 
+
+position | for histograms and bar plots how to position boxes for the same x aesthetic. "dodge" is the most clear.  
 
 ## Lecture 5
 
@@ -104,10 +108,12 @@ chaining joins | performing multiple joins sequentially to combine more than two
 ## Lecture 6
 
 names('df') | Displays all names in the dataset
-  sort(decreasing = T) %>% names() | Sort the counts of shapes in descending order and get the names.
+
+sort(decreasing = T) %>% names() | Sort the counts of shapes in descending order and get the names.
 
 sprintf("text") | Formats variables based on type and assigns them a scripted quote  
-  %s | string, %d | integer, %.2f | 2 decimal places, \n | new line, \t | tab |
+
+%s | string, %d | integer, %.2f | 2 decimal places, \n | new line, \t | tab |
 
 as.Date('var', format ='var format') = Change a variable into a date format (YYYY/MM/DD)
 
