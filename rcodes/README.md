@@ -75,13 +75,11 @@ geom_rect | general rectangles
 
 geom_bar | bar graph can perform all sorts of aggregations
 
-color | the color of a point or shape or the color of the boundary of a polygon or rectangle
-
-fill | the color of the interior of a polygon or rectangle
-
-alpha | the transparency of a color
-
-position | for histograms and bar plots how to position boxes for the same x aesthetic. "dodge" is the most clear.
+aes() | how variables in your dataset should be mapped to visual properties of the plot
+  color | the color of a point or shape or the color of the boundary of a polygon or rectangle
+  fill | the color of the interior of a polygon or rectangle
+  alpha | the transparency of a color
+  position | for histograms and bar plots how to position boxes for the same x aesthetic. "dodge" is the most clear.
 
 ## Lecture 5
 
