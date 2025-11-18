@@ -39,4 +39,8 @@ docker run -d -p 8787:8787   -e PASSWORD=________________   -v ~/Documents/BIOS5
   
 docker ps  
 
-"Go to http://localhost:8787/ and sign in"
+"Go to http://localhost:8787/ and sign in"  
+
+Stop the program:  
+
+docker stop *username*
