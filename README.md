@@ -30,3 +30,13 @@ git status | shows what edits have been made between local and github
 git log | gives you the history of your project.
   
 nano <file/path> | enter into a .md file and edit the text  
+
+## How to start up local host Rstudio!  
+  
+docker pull rocker/rstudio:latest  
+  
+docker run -d -p 8787:8787   -e PASSWORD=________________   -v ~/Documents/BIOS512:/home/rstudio   rocker/rstudio:latest^C  
+  
+docker ps  
+
+"Go to http://localhost:8787/ and sign in"
